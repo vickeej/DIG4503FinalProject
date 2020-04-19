@@ -14,5 +14,6 @@
     "next-optimized-images": "^2.5.8",
     "react": "16.13.1",
     "react-dom": "16.13.1"
-  }
+  },
+  "homepage": "https://vickeej.github.io/DIG4503FinalProject/"
 }
