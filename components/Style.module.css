@@ -43,7 +43,7 @@
 }
 
 .button {
-    background-image: url('../pages/img/pokeball.png');
+    background-image: url('./img/pokeball.png');
     background-color:#000000;
     border: 10px;
     width: 24px; 
