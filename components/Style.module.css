@@ -2,6 +2,10 @@
     background: #49a5d6;
 }
 
+.pokedex {
+    height: 95%;
+}
+
 .h1 {
     text-align: center;
     font-weight: bold;
@@ -18,9 +22,9 @@
     color:#FFFFFF;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.5em;
-    width: 35%;
     padding: 50px 30px 30px;
     margin: auto;
+    width: 35%;
 }
     
 .name {
