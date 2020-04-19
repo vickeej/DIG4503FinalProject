@@ -3,7 +3,8 @@
 }
 
 .pokedex {
-    height: 95%;
+    max-height: var(--contentHeight);
+    margin: 0 auto;
 }
 
 .h1 {
