@@ -24,7 +24,7 @@ class NameSearch extends React.Component {
             <div className = {styles.name}>
                 <form onSubmit = {this.readName}>
                 <p>Enter Pok&eacute;mon Name:</p>
-                <input id = "pokemonName" type = "text" />
+                <input id = "pokemonName" type = "text" className = {styles.input} />
                 <button className = {styles.button}>.</button>
                 </form>
             </div>

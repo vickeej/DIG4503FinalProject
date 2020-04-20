@@ -24,7 +24,7 @@ class TypeSearch extends React.Component {
             <div className = {styles.type}>
                 <form onSubmit = {this.readType}>
                 <p>Enter Pok&eacute;mon Type:</p>
-                <input id = "pokemonType" type = "text" />
+                <input id = "pokemonType" type = "text" placeholder = "Type Search Non-Functional" className = {styles.input} />
                 <button className = {styles.button}>.</button>
                 </form>
             </div>

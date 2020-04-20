@@ -24,7 +24,7 @@ class IdSearch extends React.Component{
             <div className = {styles.id}>
                 <form onSubmit = {this.readID}>
                 <p>Enter Pok&eacute;mon ID:</p>
-                <input id = "pokemonId" type = "text" />
+                <input id = "pokemonId" type = "text" className = {styles.input} />
                 <button className = {styles.button}>.</button>
                 </form>
             </div>
