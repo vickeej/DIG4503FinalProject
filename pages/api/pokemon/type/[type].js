@@ -1,24 +1,14 @@
-import pokemon from 'json-pokemon/getPokemon';
+import getPokemon from 'json-pokemon/getPokemon';
 
 export default (req, res) => {
 
-    let result = [];
+    let result = {"error": "Could not find Pokemon type."};
 
-    const type = req.query.type;
+    let pokemon = getPokemon.typeList(req.query.type);
 
-    pokemon.forEach((pokemonObject) => {
-
-      pokemonObject.typeList.forEach((typeProperty) => {
-
-        if(type === typeProperty) {
-
-          result.push(pokemonObject);
-
-        }
-
-      });
-
-    });
+    if(pokemon !== null) {
+        result = pokemon;
+    }
 
     res.json(result);
 
